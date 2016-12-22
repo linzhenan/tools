@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "h264bs", "h264bs\h264bs.vcxproj", "{533BF843-1288-40B1-A9C9-8059B7B37EAA}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YUVFrameCount", "YUVFrameCount\YUVFrameCount.vcxproj", "{1DD55270-A80D-449C-BF3E-C5135C7A6E7A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YUVPSNR", "YUVPSNR\YUVPSNR.vcxproj", "{7D7C92D0-9BFD-43A2-8A8C-BA398F5E8DE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YUVDup", "YUVDup\YUVDup.vcxproj", "{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YUVGenerator", "YUVGenerator\YUVGenerator.vcxproj", "{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,22 @@ Global
 		{7D7C92D0-9BFD-43A2-8A8C-BA398F5E8DE1}.Release|x64.Build.0 = Release|x64
 		{7D7C92D0-9BFD-43A2-8A8C-BA398F5E8DE1}.Release|x86.ActiveCfg = Release|Win32
 		{7D7C92D0-9BFD-43A2-8A8C-BA398F5E8DE1}.Release|x86.Build.0 = Release|Win32
+		{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}.Debug|x64.ActiveCfg = Debug|x64
+		{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}.Debug|x64.Build.0 = Debug|x64
+		{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}.Debug|x86.Build.0 = Debug|Win32
+		{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}.Release|x64.ActiveCfg = Release|x64
+		{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}.Release|x64.Build.0 = Release|x64
+		{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}.Release|x86.ActiveCfg = Release|Win32
+		{E45C7F7C-A6C6-41D4-8FC2-DE1F2DFA06DD}.Release|x86.Build.0 = Release|Win32
+		{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}.Debug|x64.ActiveCfg = Debug|x64
+		{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}.Debug|x64.Build.0 = Debug|x64
+		{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}.Debug|x86.Build.0 = Debug|Win32
+		{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}.Release|x64.ActiveCfg = Release|x64
+		{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}.Release|x64.Build.0 = Release|x64
+		{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}.Release|x86.ActiveCfg = Release|Win32
+		{BDB81F69-46A4-4B0E-8913-3C386DC7B2D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
