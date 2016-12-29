@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdint.h>
 
+#define min(a, b) (a < b ? a : b)
+
 enum NALUType
 {
 	Unspecified0 = 0,
@@ -83,20 +85,32 @@ char *startcode2str(uint8_t start_code)
 
 int main(int argc, char **argv)
 {
-	char *filename = "D:\\Public\\YUV\\352x288\\foreman.264";
 	FILE *pf = NULL;
 	uint8_t *bs = NULL;
+	char *filename = NULL;
+
+	if (argc == 2)
+		filename = argv[1];
+	else
+		goto fail;
+	printf("open: %s\n", filename);
 
 	pf = fopen(filename, "r");
 	if (!pf)
+	{
+		printf("fail to open file.\n");
 		goto fail;
+	}
 
 	fseek(pf, 0, SEEK_END);
 	int size = ftell(pf);
 
 	bs = (uint8_t*)malloc(sizeof(uint8_t) * size);
 	if (!bs)
+	{
+		printf("fail to malloc mem.\n");
 		goto fail;
+	}
 
 	fseek(pf, 0, SEEK_SET);
 	fread(bs, 1, size, pf);
@@ -161,11 +175,20 @@ int main(int argc, char **argv)
 					fprintf(stdout, "AU %-3d ", i_au++);//7.4.1.2.3
 				else
 					fprintf(stdout, "       ");
-
-				fprintf(stdout, "NALU %-3d %u [0x%08X - 0x%08X] %6d B [0x%08X] %-2u %s\n",
+			
+				char trail_str[9] = { 0 };
+				uint8_t trail_byte = bs[start_pos - 1];
+				for (int i = 0; i < 8; i++)
+					if (trail_byte & (1 << (7 - i)))
+						trail_str[i] = '1';
+					else
+						trail_str[i] = '0';
+				fprintf(stdout, "NALU %-3d %u [0x%08X - 0x%08X] %6d B [0x%08X] %-2u 0x%02X(%s) %s\n",
 					i_nalu++, last_priority,
 					last_start_pos, start_pos - 1, start_pos - last_start_pos,
-					last_start_code_pos, last_start_code, startcode2str(last_start_code));
+					last_start_code_pos, last_start_code,
+					trail_byte, trail_str,
+					startcode2str(last_start_code));			
 			}
 
 			b_found = 1;
@@ -206,10 +229,19 @@ int main(int argc, char **argv)
 		else
 			fprintf(stdout, "       ");
 
-		fprintf(stdout, "NALU %-3d %u [0x%08X - 0x%08X] %6d B [0x%08X] %-2u %s\n",
+		char trail_str[9] = { 0 };
+		uint8_t trail_byte = bs[pos - 1];
+		for (int i = 0; i < 8; i++)
+			if (trail_byte & (1 << (7 - i)))
+				trail_str[i] = '1';
+			else
+				trail_str[i] = '0';
+		fprintf(stdout, "NALU %-3d %u [0x%08X - 0x%08X] %6d B [0x%08X] %-2u 0x%02X(%s) %s\n",
 			i_nalu++, last_priority,
 			last_start_pos, pos - 1, pos - last_start_pos,
-			last_start_code_pos, last_start_code, startcode2str(last_start_code));
+			last_start_code_pos, last_start_code,
+			trail_byte, trail_str,
+			startcode2str(last_start_code));			
 	}
 
 fail:
