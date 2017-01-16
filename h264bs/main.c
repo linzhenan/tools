@@ -127,7 +127,7 @@ int ue(NALUContext *pNalu)
 
 	return codeNum;
 }
-int f(NALUContext *pNalu)
+int f(NALUContext *pNalu, int n)
 {
 	return read_bits(pNalu, 1);
 }
@@ -291,7 +291,11 @@ int main(int argc, char **argv)
 					startcode2str(last_start_code));
 
 				nalu.len = start_pos - last_start_pos;
-				fwrite(nalu.bs, 1, nalu.len, opf);
+
+				if (nalu.i_type == 1 || nalu.i_type == 6)
+					;
+				else
+					fwrite(nalu.bs, 1, nalu.len, opf);
 			}
 
 			b_found = 1;
@@ -348,7 +352,10 @@ int main(int argc, char **argv)
 			startcode2str(last_start_code));
 
 		nalu.len = pos - last_start_pos;
-		fwrite(nalu.bs, 1, nalu.len, opf);
+		if (nalu.i_type == 1 || nalu.i_type == 6)
+			;
+		else
+			fwrite(nalu.bs, 1, nalu.len, opf);
 	}
 
 fail:
