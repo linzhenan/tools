@@ -84,6 +84,21 @@ char *startcode2str(uint8_t start_code)
 }
 #undef enum2str
 
+enum SliceType
+{
+	P_SLICE = 0,
+	B_SLICE = 1,
+	I_SLICE = 2,
+	SP_SLICE = 3,
+	SI_SLICE = 4,
+	//7.4.3
+	P_SLICE_PLUS5 = 5,
+	B_SLICE_PLUS5 = 6,
+	I_SLICE_PLUS5 = 7,
+	SP_SLICE_PLUS5 = 8,
+	SI_SLICE_PLUS5 = 9,
+};
+
 typedef struct NALUContext
 {
 	uint8_t *bs;
@@ -91,7 +106,7 @@ typedef struct NALUContext
 	int bit;//0:MSB 7:LSB
 	int len;
 	int nal_unit_type;
-	int i_type;
+	int slice_type;
 }
 NALUContext;
 int read_bit(NALUContext *pNalu)
@@ -142,7 +157,7 @@ NALUContext extract_nalu(uint8_t *bs, int pos_offset)
 	nalu.len = -1;
 	nalu.pos = pos_offset;
 	nalu.bit = 0;
-	nalu.i_type = -1;
+	nalu.slice_type = -1;
 	NALUContext *pNalu = &nalu;
 
 	int forbidden_zero_bit = f(pNalu, 1);
@@ -155,7 +170,7 @@ NALUContext extract_nalu(uint8_t *bs, int pos_offset)
 	{
 		int first_mb_in_slice = ue(pNalu);
 		int slice_type = ue(pNalu);
-		pNalu->i_type = slice_type;
+		pNalu->slice_type = slice_type;
 	}
 
 	return nalu;
@@ -292,7 +307,7 @@ int main(int argc, char **argv)
 
 				nalu.len = start_pos - last_start_pos;
 
-				if (nalu.i_type == 1 || nalu.i_type == 6)
+				if (nalu.slice_type == B_SLICE || nalu.slice_type == B_SLICE_PLUS5)
 					;
 				else
 					fwrite(nalu.bs, 1, nalu.len, opf);
@@ -352,7 +367,7 @@ int main(int argc, char **argv)
 			startcode2str(last_start_code));
 
 		nalu.len = pos - last_start_pos;
-		if (nalu.i_type == 1 || nalu.i_type == 6)
+		if (nalu.slice_type == B_SLICE || nalu.slice_type == B_SLICE_PLUS5)
 			;
 		else
 			fwrite(nalu.bs, 1, nalu.len, opf);
