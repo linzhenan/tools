@@ -175,14 +175,14 @@ do
         
         eval "$(cat $conf_file)"
         br1=300k
-        br2=400k
-        br3=800k
-        br4=1200k
+        br2=600k
+        br3=1200k
+        br4=2400k
         if [[ "$ec_encoder" = "x264" ]] || [[ "$ec_encoder" = "h264_qsv" ]]; then
-            br1=500k
-            br2=1000k
-            br3=1500k
-            br4=2000k
+            br1=400k
+            br2=800k
+            br3=1600k
+            br4=3200k
         fi
         
         for br in $br1 $br2 $br3 $br4
