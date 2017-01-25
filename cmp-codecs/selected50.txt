@@ -11,18 +11,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 VID_20160725_091502.mp4 	 94.83 	 33.859554 	 0
 hevc_qsv_sw_veryfast 	 hevc_sw 	 VID_20160725_091502.mp4 	 91.61 	 35.037147 	 0.922566 	 1170106 	 455
 hevc_qsv_sw_veryfast 	 hevc_sw 	 VID_20160725_091502.mp4 	 79.37 	 37.840678 	 0.955170 	 2226908 	 870
 hevc_qsv_sw_veryfast 	 hevc_sw 	 VID_20160725_091502.mp4 	 71.25 	 39.414734 	 0.967295 	 3227855 	 1262
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/VID_20160725_091502_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 VID_20160725_091502.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/VID_20160725_091502_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 VID_20160725_091502.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/VID_20160725_091502_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 VID_20160725_091502.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/VID_20160725_091502_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 VID_20160725_091502.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 VID_20160725_091502.mp4 	 140.56 	 33.265163 	 0.908212 	 1293981 	 504
 x264_veryfast 	 x264 	 VID_20160725_091502.mp4 	 133.21 	 36.414112 	 0.950419 	 2552254 	 997
 x264_veryfast 	 x264 	 VID_20160725_091502.mp4 	 127.44 	 38.246009 	 0.965313 	 3791162 	 1483
@@ -44,18 +32,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 361970560_old.mp4 	 83.81 	 31.908938 	 0.85586
 hevc_qsv_sw_veryfast 	 hevc_sw 	 361970560_old.mp4 	 79.03 	 32.868490 	 0.876526 	 383157 	 446
 hevc_qsv_sw_veryfast 	 hevc_sw 	 361970560_old.mp4 	 67.61 	 35.310972 	 0.919190 	 761986 	 892
 hevc_qsv_sw_veryfast 	 hevc_sw 	 361970560_old.mp4 	 61.37 	 36.885585 	 0.939427 	 1136496 	 1333
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/361970560_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 361970560_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/361970560_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 361970560_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/361970560_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 361970560_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/361970560_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 361970560_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 361970560_old.mp4 	 115.58 	 31.315391 	 0.851135 	 450794 	 526
 x264_veryfast 	 x264 	 361970560_old.mp4 	 110.15 	 34.300421 	 0.912709 	 888878 	 1042
 x264_veryfast 	 x264 	 361970560_old.mp4 	 105.75 	 36.102932 	 0.938274 	 1326684 	 1557
@@ -77,18 +53,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 371894311_old.mp4 	 85.55 	 44.001715 	 0.98517
 hevc_qsv_sw_veryfast 	 hevc_sw 	 371894311_old.mp4 	 82.90 	 45.011644 	 0.987146 	 289688 	 328
 hevc_qsv_sw_veryfast 	 hevc_sw 	 371894311_old.mp4 	 71.79 	 47.080467 	 0.990207 	 592319 	 676
 hevc_qsv_sw_veryfast 	 hevc_sw 	 371894311_old.mp4 	 66.24 	 47.967842 	 0.991294 	 898198 	 1027
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/371894311_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 371894311_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/371894311_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 371894311_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/371894311_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 371894311_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/371894311_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 371894311_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 371894311_old.mp4 	 121.93 	 42.102906 	 0.981979 	 360574 	 410
 x264_veryfast 	 x264 	 371894311_old.mp4 	 113.83 	 45.366612 	 0.988257 	 769117 	 879
 x264_veryfast 	 x264 	 371894311_old.mp4 	 102.90 	 46.720577 	 0.990094 	 1194186 	 1367
@@ -110,18 +74,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 391164745_old.mp4 	 76.40 	 40.255372 	 0.96350
 hevc_qsv_sw_veryfast 	 hevc_sw 	 391164745_old.mp4 	 74.55 	 41.276457 	 0.968845 	 437860 	 506
 hevc_qsv_sw_veryfast 	 hevc_sw 	 391164745_old.mp4 	 62.93 	 43.464788 	 0.977536 	 882563 	 1024
 hevc_qsv_sw_veryfast 	 hevc_sw 	 391164745_old.mp4 	 55.99 	 44.562723 	 0.981096 	 1333449 	 1549
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/391164745_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 391164745_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/391164745_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 391164745_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/391164745_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 391164745_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/391164745_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 391164745_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 391164745_old.mp4 	 111.47 	 38.001151 	 0.952336 	 509640 	 589
 x264_veryfast 	 x264 	 391164745_old.mp4 	 102.38 	 41.006779 	 0.969152 	 995906 	 1156
 x264_veryfast 	 x264 	 391164745_old.mp4 	 98.65 	 42.435003 	 0.975104 	 1466367 	 1704
@@ -143,18 +95,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 391269500_old.mp4 	 85.78 	 30.631291 	 0.95955
 hevc_qsv_sw_veryfast 	 hevc_sw 	 391269500_old.mp4 	 83.31 	 31.420437 	 0.965698 	 560500 	 440
 hevc_qsv_sw_veryfast 	 hevc_sw 	 391269500_old.mp4 	 72.59 	 33.458690 	 0.978120 	 1021576 	 805
 hevc_qsv_sw_veryfast 	 hevc_sw 	 391269500_old.mp4 	 66.15 	 34.187119 	 0.982538 	 1485059 	 1172
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/391269500_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 391269500_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/391269500_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 391269500_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/391269500_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 391269500_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/391269500_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 391269500_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 391269500_old.mp4 	 120.52 	 35.570845 	 0.947887 	 625699 	 492
 x264_veryfast 	 x264 	 391269500_old.mp4 	 113.73 	 40.292703 	 0.972888 	 1211168 	 956
 x264_veryfast 	 x264 	 391269500_old.mp4 	 109.18 	 42.500962 	 0.979995 	 1810087 	 1430
@@ -176,18 +116,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 399494504_old.mp4 	 87.52 	 41.407075 	 0.97566
 hevc_qsv_sw_veryfast 	 hevc_sw 	 399494504_old.mp4 	 83.94 	 42.583942 	 0.979683 	 423415 	 486
 hevc_qsv_sw_veryfast 	 hevc_sw 	 399494504_old.mp4 	 72.10 	 45.111118 	 0.986278 	 843719 	 974
 hevc_qsv_sw_veryfast 	 hevc_sw 	 399494504_old.mp4 	 64.14 	 46.362568 	 0.988698 	 1267471 	 1465
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/399494504_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 399494504_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/399494504_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 399494504_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/399494504_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 399494504_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/399494504_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 399494504_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 399494504_old.mp4 	 126.68 	 39.798441 	 0.972972 	 488099 	 562
 x264_veryfast 	 x264 	 399494504_old.mp4 	 117.68 	 43.026110 	 0.983494 	 948546 	 1095
 x264_veryfast 	 x264 	 399494504_old.mp4 	 110.99 	 44.583190 	 0.986864 	 1393380 	 1611
@@ -209,18 +137,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 504551105_old.mp4 	 80.45 	 30.664497 	 0.84840
 hevc_qsv_sw_veryfast 	 hevc_sw 	 504551105_old.mp4 	 77.23 	 31.595622 	 0.869426 	 393042 	 445
 hevc_qsv_sw_veryfast 	 hevc_sw 	 504551105_old.mp4 	 68.00 	 34.175561 	 0.915368 	 783380 	 891
 hevc_qsv_sw_veryfast 	 hevc_sw 	 504551105_old.mp4 	 60.95 	 35.965116 	 0.938691 	 1171331 	 1334
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/504551105_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 504551105_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/504551105_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 504551105_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/504551105_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 504551105_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/504551105_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 504551105_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 504551105_old.mp4 	 115.38 	 30.032794 	 0.841824 	 439637 	 499
 x264_veryfast 	 x264 	 504551105_old.mp4 	 110.64 	 32.962794 	 0.906260 	 879386 	 1001
 x264_veryfast 	 x264 	 504551105_old.mp4 	 108.08 	 34.796467 	 0.933751 	 1315742 	 1500
@@ -242,18 +158,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 535539246_old.mp4 	 114.42 	 36.798611 	 0.9362
 hevc_qsv_sw_veryfast 	 hevc_sw 	 535539246_old.mp4 	 109.70 	 38.086532 	 0.949599 	 890418 	 383
 hevc_qsv_sw_veryfast 	 hevc_sw 	 535539246_old.mp4 	 97.34 	 41.144352 	 0.971585 	 1740366 	 752
 hevc_qsv_sw_veryfast 	 hevc_sw 	 535539246_old.mp4 	 88.69 	 42.696090 	 0.978586 	 2552988 	 1104
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/535539246_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 535539246_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/535539246_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 535539246_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/535539246_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 535539246_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/535539246_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 535539246_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 535539246_old.mp4 	 168.18 	 36.363773 	 0.939517 	 1094453 	 471
 x264_veryfast 	 x264 	 535539246_old.mp4 	 158.99 	 39.595044 	 0.966848 	 2222953 	 961
 x264_veryfast 	 x264 	 535539246_old.mp4 	 152.21 	 41.258897 	 0.975691 	 3353672 	 1452
@@ -275,18 +179,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 555410317_old.mp4 	 78.94 	 35.199748 	 0.94503
 hevc_qsv_sw_veryfast 	 hevc_sw 	 555410317_old.mp4 	 76.96 	 36.463574 	 0.953695 	 513964 	 402
 hevc_qsv_sw_veryfast 	 hevc_sw 	 555410317_old.mp4 	 67.06 	 39.807973 	 0.970784 	 1001348 	 786
 hevc_qsv_sw_veryfast 	 hevc_sw 	 555410317_old.mp4 	 60.97 	 41.890844 	 0.978328 	 1496988 	 1178
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/555410317_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 555410317_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/555410317_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 555410317_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/555410317_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 555410317_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/555410317_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 555410317_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 555410317_old.mp4 	 110.98 	 31.969687 	 0.921505 	 583012 	 456
 x264_veryfast 	 x264 	 555410317_old.mp4 	 103.64 	 37.171820 	 0.960781 	 1175207 	 924
 x264_veryfast 	 x264 	 555410317_old.mp4 	 101.74 	 39.509485 	 0.971678 	 1766574 	 1391
@@ -308,18 +200,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 560597688_old.mp4 	 78.24 	 27.048251 	 0.77477
 hevc_qsv_sw_veryfast 	 hevc_sw 	 560597688_old.mp4 	 76.77 	 27.646071 	 0.793418 	 549753 	 411
 hevc_qsv_sw_veryfast 	 hevc_sw 	 560597688_old.mp4 	 69.98 	 29.459353 	 0.845980 	 1077067 	 809
 hevc_qsv_sw_veryfast 	 hevc_sw 	 560597688_old.mp4 	 60.98 	 30.777988 	 0.878008 	 1626763 	 1224
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/560597688_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 560597688_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/560597688_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 560597688_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/560597688_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 560597688_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/560597688_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 560597688_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 560597688_old.mp4 	 118.12 	 26.619177 	 0.764485 	 622279 	 466
 x264_veryfast 	 x264 	 560597688_old.mp4 	 112.56 	 28.815593 	 0.832870 	 1207842 	 908
 x264_veryfast 	 x264 	 560597688_old.mp4 	 109.88 	 30.198637 	 0.870451 	 1796134 	 1352
@@ -341,18 +221,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 573903512_old.mp4 	 79.28 	 25.152465 	 0.70181
 hevc_qsv_sw_veryfast 	 hevc_sw 	 573903512_old.mp4 	 79.19 	 25.898409 	 0.740913 	 357844 	 391
 hevc_qsv_sw_veryfast 	 hevc_sw 	 573903512_old.mp4 	 71.59 	 28.375259 	 0.841802 	 731014 	 804
 hevc_qsv_sw_veryfast 	 hevc_sw 	 573903512_old.mp4 	 63.26 	 30.115193 	 0.887621 	 1102965 	 1215
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/573903512_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 573903512_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/573903512_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 573903512_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/573903512_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 573903512_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/573903512_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 573903512_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 573903512_old.mp4 	 118.51 	 24.555801 	 0.677956 	 396734 	 435
 x264_veryfast 	 x264 	 573903512_old.mp4 	 113.61 	 27.078283 	 0.807960 	 817590 	 900
 x264_veryfast 	 x264 	 573903512_old.mp4 	 111.11 	 28.808551 	 0.865892 	 1247610 	 1376
@@ -374,18 +242,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 590546720_old.mp4 	 124.22 	 43.636070 	 0.9856
 hevc_qsv_sw_veryfast 	 hevc_sw 	 590546720_old.mp4 	 122.92 	 44.789261 	 0.988114 	 468310 	 326
 hevc_qsv_sw_veryfast 	 hevc_sw 	 590546720_old.mp4 	 104.95 	 47.159127 	 0.991805 	 961197 	 672
 hevc_qsv_sw_veryfast 	 hevc_sw 	 590546720_old.mp4 	 93.83 	 48.225568 	 0.993072 	 1499990 	 1052
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/590546720_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 590546720_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/590546720_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 590546720_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/590546720_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 590546720_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/590546720_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 590546720_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 590546720_old.mp4 	 183.13 	 41.993857 	 0.984128 	 676734 	 472
 x264_veryfast 	 x264 	 590546720_old.mp4 	 169.31 	 45.093998 	 0.990131 	 1381195 	 968
 x264_veryfast 	 x264 	 590546720_old.mp4 	 160.16 	 46.616237 	 0.992059 	 2085551 	 1464
@@ -407,18 +263,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 626659876_old.mp4 	 100.16 	 39.555265 	 0.9543
 hevc_qsv_sw_veryfast 	 hevc_sw 	 626659876_old.mp4 	 97.87 	 40.686123 	 0.962517 	 906811 	 327
 hevc_qsv_sw_veryfast 	 hevc_sw 	 626659876_old.mp4 	 87.83 	 43.272367 	 0.976855 	 1784108 	 646
 hevc_qsv_sw_veryfast 	 hevc_sw 	 626659876_old.mp4 	 79.68 	 44.669705 	 0.982092 	 2748774 	 997
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/626659876_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 626659876_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/626659876_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 626659876_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/626659876_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 626659876_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/626659876_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 626659876_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 626659876_old.mp4 	 153.25 	 39.009647 	 0.956438 	 1235193 	 446
 x264_veryfast 	 x264 	 626659876_old.mp4 	 145.86 	 41.877300 	 0.973458 	 2522360 	 915
 x264_veryfast 	 x264 	 626659876_old.mp4 	 139.00 	 43.461275 	 0.980046 	 3836021 	 1393
@@ -440,18 +284,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 630217362_old.mp4 	 98.86 	 31.330481 	 0.91757
 hevc_qsv_sw_veryfast 	 hevc_sw 	 630217362_old.mp4 	 96.73 	 32.456097 	 0.933919 	 1303322 	 439
 hevc_qsv_sw_veryfast 	 hevc_sw 	 630217362_old.mp4 	 84.30 	 35.306447 	 0.962814 	 2654523 	 897
 hevc_qsv_sw_veryfast 	 hevc_sw 	 630217362_old.mp4 	 74.49 	 36.786146 	 0.971705 	 3987141 	 1350
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/630217362_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 630217362_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/630217362_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 630217362_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/630217362_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 630217362_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/630217362_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 630217362_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 630217362_old.mp4 	 149.09 	 31.417769 	 0.923985 	 1647148 	 556
 x264_veryfast 	 x264 	 630217362_old.mp4 	 144.63 	 34.353065 	 0.958875 	 3326744 	 1126
 x264_veryfast 	 x264 	 630217362_old.mp4 	 142.45 	 35.935898 	 0.970088 	 4971680 	 1684
@@ -473,18 +305,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 650279042_old.mp4 	 90.27 	 35.510501 	 0.93712
 hevc_qsv_sw_veryfast 	 hevc_sw 	 650279042_old.mp4 	 85.24 	 36.744499 	 0.947595 	 743226 	 425
 hevc_qsv_sw_veryfast 	 hevc_sw 	 650279042_old.mp4 	 71.91 	 39.747295 	 0.966615 	 1505486 	 865
 hevc_qsv_sw_veryfast 	 hevc_sw 	 650279042_old.mp4 	 63.66 	 41.446662 	 0.974151 	 2324862 	 1337
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/650279042_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 650279042_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/650279042_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 650279042_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/650279042_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 650279042_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/650279042_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 650279042_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 650279042_old.mp4 	 124.92 	 33.910682 	 0.923197 	 878938 	 503
 x264_veryfast 	 x264 	 650279042_old.mp4 	 118.01 	 37.481762 	 0.956029 	 1800011 	 1035
 x264_veryfast 	 x264 	 650279042_old.mp4 	 111.79 	 39.370016 	 0.967231 	 2725956 	 1569
@@ -506,18 +326,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 652478990_old.mp4 	 81.15 	 33.150474 	 0.90184
 hevc_qsv_sw_veryfast 	 hevc_sw 	 652478990_old.mp4 	 77.21 	 34.224446 	 0.914058 	 615511 	 518
 hevc_qsv_sw_veryfast 	 hevc_sw 	 652478990_old.mp4 	 67.63 	 36.947223 	 0.941592 	 1198246 	 1012
 hevc_qsv_sw_veryfast 	 hevc_sw 	 652478990_old.mp4 	 60.86 	 38.633732 	 0.954797 	 1765478 	 1493
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/652478990_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 652478990_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/652478990_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 652478990_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/652478990_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 652478990_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/652478990_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 652478990_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 652478990_old.mp4 	 118.31 	 32.218157 	 0.893523 	 643052 	 541
 x264_veryfast 	 x264 	 652478990_old.mp4 	 114.80 	 35.101062 	 0.930140 	 1281147 	 1082
 x264_veryfast 	 x264 	 652478990_old.mp4 	 109.09 	 36.848249 	 0.947646 	 1903777 	 1610
@@ -539,18 +347,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 658190186_old.mp4 	 92.67 	 26.797569 	 0.80755
 hevc_qsv_sw_veryfast 	 hevc_sw 	 658190186_old.mp4 	 90.89 	 27.690568 	 0.838535 	 972349 	 437
 hevc_qsv_sw_veryfast 	 hevc_sw 	 658190186_old.mp4 	 78.54 	 30.110626 	 0.897893 	 1915673 	 864
 hevc_qsv_sw_veryfast 	 hevc_sw 	 658190186_old.mp4 	 70.35 	 31.611984 	 0.923061 	 2849057 	 1286
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/658190186_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 658190186_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/658190186_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 658190186_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/658190186_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 658190186_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/658190186_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 658190186_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 658190186_old.mp4 	 142.74 	 26.579795 	 0.810062 	 1150643 	 517
 x264_veryfast 	 x264 	 658190186_old.mp4 	 138.63 	 29.327293 	 0.890316 	 2279673 	 1029
 x264_veryfast 	 x264 	 658190186_old.mp4 	 134.68 	 30.976299 	 0.920328 	 3407630 	 1539
@@ -572,18 +368,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 664902379_old.mp4 	 96.31 	 34.439902 	 0.91028
 hevc_qsv_sw_veryfast 	 hevc_sw 	 664902379_old.mp4 	 90.35 	 35.414625 	 0.926837 	 297145 	 474
 hevc_qsv_sw_veryfast 	 hevc_sw 	 664902379_old.mp4 	 79.63 	 37.969950 	 0.957436 	 572747 	 918
 hevc_qsv_sw_veryfast 	 hevc_sw 	 664902379_old.mp4 	 70.88 	 39.412740 	 0.968747 	 819248 	 1315
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/664902379_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 664902379_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/664902379_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 664902379_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/664902379_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 664902379_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/664902379_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 664902379_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 664902379_old.mp4 	 131.39 	 33.618457 	 0.902319 	 345896 	 552
 x264_veryfast 	 x264 	 664902379_old.mp4 	 129.67 	 36.530988 	 0.947344 	 675490 	 1083
 x264_veryfast 	 x264 	 664902379_old.mp4 	 126.80 	 38.091288 	 0.962790 	 1000047 	 1606
@@ -605,18 +389,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 686529697_old.mp4 	 85.12 	 31.204098 	 0.78859
 hevc_qsv_sw_veryfast 	 hevc_sw 	 686529697_old.mp4 	 85.01 	 31.620582 	 0.806959 	 295516 	 354
 hevc_qsv_sw_veryfast 	 hevc_sw 	 686529697_old.mp4 	 76.24 	 33.474333 	 0.872271 	 593913 	 715
 hevc_qsv_sw_veryfast 	 hevc_sw 	 686529697_old.mp4 	 70.33 	 34.987488 	 0.908599 	 907278 	 1095
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/686529697_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 686529697_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/686529697_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 686529697_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/686529697_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 686529697_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/686529697_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 686529697_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 686529697_old.mp4 	 120.29 	 31.146502 	 0.807114 	 346509 	 416
 x264_veryfast 	 x264 	 686529697_old.mp4 	 115.11 	 33.487044 	 0.886548 	 721544 	 870
 x264_veryfast 	 x264 	 686529697_old.mp4 	 111.61 	 34.970546 	 0.918833 	 1111061 	 1342
@@ -638,18 +410,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 708232346_old.mp4 	 85.22 	 38.476386 	 0.95113
 hevc_qsv_sw_veryfast 	 hevc_sw 	 708232346_old.mp4 	 82.76 	 39.525796 	 0.959488 	 262073 	 393
 hevc_qsv_sw_veryfast 	 hevc_sw 	 708232346_old.mp4 	 73.35 	 42.111086 	 0.974952 	 527625 	 797
 hevc_qsv_sw_veryfast 	 hevc_sw 	 708232346_old.mp4 	 65.18 	 43.503819 	 0.980660 	 797313 	 1206
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/708232346_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 708232346_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/708232346_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 708232346_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/708232346_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 708232346_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/708232346_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 708232346_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 708232346_old.mp4 	 118.26 	 37.301181 	 0.946219 	 301980 	 454
 x264_veryfast 	 x264 	 708232346_old.mp4 	 113.26 	 40.425284 	 0.969492 	 619343 	 936
 x264_veryfast 	 x264 	 708232346_old.mp4 	 107.92 	 42.046993 	 0.977382 	 939771 	 1423
@@ -671,18 +431,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 731194157_old.mp4 	 85.83 	 36.658676 	 0.96162
 hevc_qsv_sw_veryfast 	 hevc_sw 	 731194157_old.mp4 	 82.71 	 37.736357 	 0.966765 	 628779 	 432
 hevc_qsv_sw_veryfast 	 hevc_sw 	 731194157_old.mp4 	 73.19 	 40.579051 	 0.978124 	 1261429 	 871
 hevc_qsv_sw_veryfast 	 hevc_sw 	 731194157_old.mp4 	 66.18 	 42.075277 	 0.982387 	 1910585 	 1321
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/731194157_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 731194157_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/731194157_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 731194157_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/731194157_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 731194157_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/731194157_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 731194157_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 731194157_old.mp4 	 118.57 	 35.256402 	 0.959014 	 704900 	 485
 x264_veryfast 	 x264 	 731194157_old.mp4 	 116.69 	 38.770544 	 0.976339 	 1447586 	 1000
 x264_veryfast 	 x264 	 731194157_old.mp4 	 110.54 	 40.539388 	 0.982037 	 2193035 	 1517
@@ -704,18 +452,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 751239771_old.mp4 	 86.34 	 45.088960 	 0.98586
 hevc_qsv_sw_veryfast 	 hevc_sw 	 751239771_old.mp4 	 82.77 	 45.957463 	 0.987456 	 561047 	 402
 hevc_qsv_sw_veryfast 	 hevc_sw 	 751239771_old.mp4 	 73.56 	 47.722267 	 0.990269 	 1117981 	 804
 hevc_qsv_sw_veryfast 	 hevc_sw 	 751239771_old.mp4 	 67.76 	 48.498557 	 0.991314 	 1685255 	 1214
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/751239771_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 751239771_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/751239771_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 751239771_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/751239771_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 751239771_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/751239771_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 751239771_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 751239771_old.mp4 	 123.74 	 43.447203 	 0.984477 	 764629 	 549
 x264_veryfast 	 x264 	 751239771_old.mp4 	 114.08 	 45.908081 	 0.988831 	 1509849 	 1088
 x264_veryfast 	 x264 	 751239771_old.mp4 	 106.95 	 47.079901 	 0.990374 	 2244449 	 1619
@@ -737,18 +473,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 811132625_old.mp4 	 81.08 	 39.397134 	 0.96265
 hevc_qsv_sw_veryfast 	 hevc_sw 	 811132625_old.mp4 	 76.48 	 40.471078 	 0.967236 	 471775 	 443
 hevc_qsv_sw_veryfast 	 hevc_sw 	 811132625_old.mp4 	 65.40 	 42.541377 	 0.975073 	 934027 	 882
 hevc_qsv_sw_veryfast 	 hevc_sw 	 811132625_old.mp4 	 58.78 	 43.648149 	 0.978644 	 1392132 	 1316
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/811132625_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 811132625_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/811132625_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 811132625_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/811132625_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 811132625_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/811132625_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 811132625_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 811132625_old.mp4 	 117.78 	 37.128787 	 0.953275 	 528671 	 497
 x264_veryfast 	 x264 	 811132625_old.mp4 	 109.57 	 40.423408 	 0.968551 	 1053580 	 995
 x264_veryfast 	 x264 	 811132625_old.mp4 	 102.76 	 41.853155 	 0.973939 	 1579883 	 1495
@@ -770,18 +494,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 844210999_old.mp4 	 82.35 	 32.528385 	 0.92403
 hevc_qsv_sw_veryfast 	 hevc_sw 	 844210999_old.mp4 	 77.80 	 32.885777 	 0.936064 	 876040 	 498
 hevc_qsv_sw_veryfast 	 hevc_sw 	 844210999_old.mp4 	 67.43 	 38.188609 	 0.959068 	 1594746 	 910
 hevc_qsv_sw_veryfast 	 hevc_sw 	 844210999_old.mp4 	 61.34 	 40.145212 	 0.968265 	 2281246 	 1303
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/844210999_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 844210999_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/844210999_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 844210999_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/844210999_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 844210999_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/844210999_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 844210999_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 844210999_old.mp4 	 123.30 	 31.972995 	 0.904113 	 939191 	 534
 x264_veryfast 	 x264 	 844210999_old.mp4 	 116.19 	 36.119253 	 0.946496 	 1828017 	 1043
 x264_veryfast 	 x264 	 844210999_old.mp4 	 111.40 	 38.181441 	 0.960696 	 2702013 	 1544
@@ -803,18 +515,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 865389383_old.mp4 	 94.65 	 30.409889 	 0.77742
 hevc_qsv_sw_veryfast 	 hevc_sw 	 865389383_old.mp4 	 88.53 	 30.991991 	 0.794969 	 601486 	 444
 hevc_qsv_sw_veryfast 	 hevc_sw 	 865389383_old.mp4 	 73.80 	 32.760519 	 0.850572 	 1183909 	 878
 hevc_qsv_sw_veryfast 	 hevc_sw 	 865389383_old.mp4 	 64.36 	 34.089098 	 0.886704 	 1807477 	 1343
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/865389383_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 865389383_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/865389383_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 865389383_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/865389383_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 865389383_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/865389383_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 865389383_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 865389383_old.mp4 	 128.90 	 30.105584 	 0.775443 	 701736 	 520
 x264_veryfast 	 x264 	 865389383_old.mp4 	 121.00 	 32.206488 	 0.845331 	 1428221 	 1061
 x264_veryfast 	 x264 	 865389383_old.mp4 	 115.08 	 33.692796 	 0.887276 	 2146440 	 1596
@@ -836,18 +536,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 884731639_old.mp4 	 75.57 	 33.429058 	 0.91653
 hevc_qsv_sw_veryfast 	 hevc_sw 	 884731639_old.mp4 	 72.04 	 34.607359 	 0.930398 	 719022 	 522
 hevc_qsv_sw_veryfast 	 hevc_sw 	 884731639_old.mp4 	 61.17 	 37.449069 	 0.955436 	 1437929 	 1048
 hevc_qsv_sw_veryfast 	 hevc_sw 	 884731639_old.mp4 	 54.64 	 39.194687 	 0.966047 	 2188971 	 1598
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/884731639_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 884731639_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/884731639_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 884731639_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/884731639_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 884731639_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/884731639_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 884731639_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 884731639_old.mp4 	 101.92 	 31.461535 	 0.893964 	 759923 	 553
 x264_veryfast 	 x264 	 884731639_old.mp4 	 97.82 	 35.038063 	 0.939006 	 1540693 	 1124
 x264_veryfast 	 x264 	 884731639_old.mp4 	 94.06 	 37.010056 	 0.955849 	 2347719 	 1715
@@ -869,18 +557,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 888473142_old.mp4 	 82.28 	 31.399236 	 0.90417
 hevc_qsv_sw_veryfast 	 hevc_sw 	 888473142_old.mp4 	 78.02 	 32.440203 	 0.917079 	 910017 	 461
 hevc_qsv_sw_veryfast 	 hevc_sw 	 888473142_old.mp4 	 67.06 	 35.183721 	 0.944309 	 1810187 	 920
 hevc_qsv_sw_veryfast 	 hevc_sw 	 888473142_old.mp4 	 59.08 	 36.913163 	 0.957284 	 2699895 	 1375
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/888473142_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 888473142_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/888473142_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 888473142_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/888473142_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 888473142_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/888473142_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 888473142_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 888473142_old.mp4 	 118.14 	 30.069036 	 0.893942 	 1027199 	 521
 x264_veryfast 	 x264 	 888473142_old.mp4 	 113.44 	 33.539624 	 0.935251 	 2014558 	 1025
 x264_veryfast 	 x264 	 888473142_old.mp4 	 107.55 	 35.348390 	 0.950877 	 3010627 	 1534
@@ -902,18 +578,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 889439263_old.mp4 	 82.23 	 28.657214 	 0.81795
 hevc_qsv_sw_veryfast 	 hevc_sw 	 889439263_old.mp4 	 80.32 	 29.654024 	 0.846955 	 915097 	 458
 hevc_qsv_sw_veryfast 	 hevc_sw 	 889439263_old.mp4 	 67.35 	 32.037197 	 0.901555 	 1879181 	 944
 hevc_qsv_sw_veryfast 	 hevc_sw 	 889439263_old.mp4 	 58.39 	 33.347048 	 0.923558 	 2788246 	 1402
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/889439263_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 889439263_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/889439263_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 889439263_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/889439263_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 889439263_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/889439263_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 889439263_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 889439263_old.mp4 	 118.34 	 27.817707 	 0.793074 	 1106093 	 554
 x264_veryfast 	 x264 	 889439263_old.mp4 	 112.58 	 30.450542 	 0.870335 	 2188355 	 1100
 x264_veryfast 	 x264 	 889439263_old.mp4 	 107.96 	 31.913527 	 0.901726 	 3274352 	 1647
@@ -935,18 +599,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 894099012_old.mp4 	 78.19 	 27.707293 	 0.83276
 hevc_qsv_sw_veryfast 	 hevc_sw 	 894099012_old.mp4 	 75.32 	 28.600492 	 0.858798 	 1028067 	 630
 hevc_qsv_sw_veryfast 	 hevc_sw 	 894099012_old.mp4 	 63.86 	 31.035950 	 0.910214 	 2073145 	 1275
 hevc_qsv_sw_veryfast 	 hevc_sw 	 894099012_old.mp4 	 56.77 	 32.694271 	 0.933390 	 3129526 	 1927
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/894099012_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 894099012_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/894099012_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 894099012_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/894099012_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 894099012_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/894099012_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 894099012_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 894099012_old.mp4 	 123.64 	 26.912155 	 0.821083 	 923089 	 566
 x264_veryfast 	 x264 	 894099012_old.mp4 	 117.23 	 29.351204 	 0.889693 	 1871435 	 1151
 x264_veryfast 	 x264 	 894099012_old.mp4 	 114.07 	 30.944908 	 0.919291 	 2818033 	 1735
@@ -968,18 +620,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 906992268_old.mp4 	 58.97 	 20.813221 	 0.62674
 hevc_qsv_sw_veryfast 	 hevc_sw 	 906992268_old.mp4 	 57.89 	 21.034140 	 0.642155 	 444726 	 642
 hevc_qsv_sw_veryfast 	 hevc_sw 	 906992268_old.mp4 	 55.16 	 22.588043 	 0.730843 	 796673 	 1154
 hevc_qsv_sw_veryfast 	 hevc_sw 	 906992268_old.mp4 	 52.93 	 24.230095 	 0.801972 	 1271125 	 1844
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/906992268_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 906992268_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/906992268_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 906992268_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/906992268_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 906992268_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/906992268_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 906992268_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 906992268_old.mp4 	 108.98 	 19.965069 	 0.564459 	 395932 	 572
 x264_veryfast 	 x264 	 906992268_old.mp4 	 105.70 	 21.726357 	 0.694482 	 740357 	 1073
 x264_veryfast 	 x264 	 906992268_old.mp4 	 102.16 	 23.136536 	 0.768862 	 1120887 	 1626
@@ -1001,18 +641,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 920273115_old.mp4 	 98.29 	 38.772657 	 0.96510
 hevc_qsv_sw_veryfast 	 hevc_sw 	 920273115_old.mp4 	 94.89 	 40.137554 	 0.971748 	 928158 	 455
 hevc_qsv_sw_veryfast 	 hevc_sw 	 920273115_old.mp4 	 79.79 	 43.133664 	 0.982290 	 1827762 	 901
 hevc_qsv_sw_veryfast 	 hevc_sw 	 920273115_old.mp4 	 70.74 	 44.721714 	 0.986057 	 2706799 	 1336
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/920273115_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 920273115_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/920273115_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 920273115_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/920273115_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 920273115_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/920273115_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 920273115_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 920273115_old.mp4 	 139.32 	 37.616788 	 0.962992 	 1102971 	 542
 x264_veryfast 	 x264 	 920273115_old.mp4 	 129.64 	 41.027506 	 0.978252 	 2163873 	 1067
 x264_veryfast 	 x264 	 920273115_old.mp4 	 122.16 	 42.786543 	 0.983427 	 3209111 	 1584
@@ -1034,18 +662,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 923374493_old.mp4 	 84.49 	 32.863131 	 0.89543
 hevc_qsv_sw_veryfast 	 hevc_sw 	 923374493_old.mp4 	 79.95 	 34.098232 	 0.911045 	 938598 	 429
 hevc_qsv_sw_veryfast 	 hevc_sw 	 923374493_old.mp4 	 69.59 	 36.919652 	 0.940805 	 1841413 	 846
 hevc_qsv_sw_veryfast 	 hevc_sw 	 923374493_old.mp4 	 62.05 	 38.576131 	 0.954993 	 2759139 	 1270
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/923374493_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 923374493_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/923374493_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 923374493_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/923374493_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 923374493_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/923374493_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 923374493_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 923374493_old.mp4 	 119.70 	 31.710390 	 0.889152 	 1094824 	 502
 x264_veryfast 	 x264 	 923374493_old.mp4 	 113.41 	 35.198106 	 0.931085 	 2188415 	 1006
 x264_veryfast 	 x264 	 923374493_old.mp4 	 109.15 	 37.050336 	 0.948982 	 3282774 	 1511
@@ -1067,18 +683,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 952546853_old.mp4 	 83.26 	 35.945729 	 0.94308
 hevc_qsv_sw_veryfast 	 hevc_sw 	 952546853_old.mp4 	 78.68 	 37.349178 	 0.954007 	 794215 	 487
 hevc_qsv_sw_veryfast 	 hevc_sw 	 952546853_old.mp4 	 69.58 	 40.567533 	 0.972018 	 1480216 	 912
 hevc_qsv_sw_veryfast 	 hevc_sw 	 952546853_old.mp4 	 62.39 	 42.310844 	 0.978836 	 2168547 	 1337
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/952546853_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 952546853_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/952546853_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 952546853_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/952546853_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 952546853_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/952546853_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 952546853_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 952546853_old.mp4 	 120.53 	 34.009120 	 0.931302 	 911325 	 560
 x264_veryfast 	 x264 	 952546853_old.mp4 	 114.15 	 38.005686 	 0.962426 	 1790128 	 1104
 x264_veryfast 	 x264 	 952546853_old.mp4 	 109.54 	 40.015384 	 0.972514 	 2656222 	 1640
@@ -1100,18 +704,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 957309890_old.mp4 	 99.75 	 48.590088 	 0.99299
 hevc_qsv_sw_veryfast 	 hevc_sw 	 957309890_old.mp4 	 95.21 	 49.283017 	 0.993364 	 692557 	 284
 hevc_qsv_sw_veryfast 	 hevc_sw 	 957309890_old.mp4 	 85.45 	 50.591541 	 0.994069 	 1400755 	 579
 hevc_qsv_sw_veryfast 	 hevc_sw 	 957309890_old.mp4 	 80.20 	 51.178384 	 0.994422 	 2152346 	 891
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/957309890_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 957309890_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/957309890_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 957309890_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/957309890_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 957309890_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/957309890_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 957309890_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 957309890_old.mp4 	 125.00 	 47.830244 	 0.992961 	 1058193 	 437
 x264_veryfast 	 x264 	 957309890_old.mp4 	 118.52 	 49.924150 	 0.994023 	 2281556 	 946
 x264_veryfast 	 x264 	 957309890_old.mp4 	 111.97 	 50.769607 	 0.994518 	 3521911 	 1461
@@ -1133,18 +725,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1014584164_old.mp4 	 85.68 	 40.885415 	 0.9836
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1014584164_old.mp4 	 84.24 	 42.395264 	 0.987359 	 389365 	 428
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1014584164_old.mp4 	 77.47 	 45.805118 	 0.993044 	 768559 	 850
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1014584164_old.mp4 	 73.51 	 47.690617 	 0.994997 	 1153381 	 1277
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1014584164_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1014584164_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1014584164_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1014584164_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1014584164_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1014584164_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1014584164_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1014584164_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1014584164_old.mp4 	 109.70 	 39.849234 	 0.983346 	 489659 	 540
 x264_veryfast 	 x264 	 1014584164_old.mp4 	 109.20 	 43.412009 	 0.991305 	 999066 	 1106
 x264_veryfast 	 x264 	 1014584164_old.mp4 	 105.98 	 45.367238 	 0.993804 	 1512004 	 1676
@@ -1166,18 +746,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1014679136_old.mp4 	 81.93 	 36.697198 	 0.9299
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1014679136_old.mp4 	 78.92 	 37.609781 	 0.937479 	 729753 	 378
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1014679136_old.mp4 	 66.91 	 39.698654 	 0.952008 	 1516015 	 789
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1014679136_old.mp4 	 60.87 	 40.619431 	 0.957106 	 2289053 	 1193
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1014679136_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1014679136_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1014679136_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1014679136_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1014679136_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1014679136_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1014679136_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1014679136_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1014679136_old.mp4 	 117.60 	 35.438730 	 0.921803 	 877291 	 455
 x264_veryfast 	 x264 	 1014679136_old.mp4 	 109.96 	 38.196383 	 0.944076 	 1786782 	 930
 x264_veryfast 	 x264 	 1014679136_old.mp4 	 103.79 	 39.393454 	 0.952102 	 2745776 	 1432
@@ -1199,18 +767,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1018992431_old.mp4 	 89.47 	 43.061818 	 0.9837
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1018992431_old.mp4 	 85.83 	 44.144838 	 0.985566 	 1357410 	 395
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1018992431_old.mp4 	 74.47 	 46.360717 	 0.988707 	 2724268 	 797
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1018992431_old.mp4 	 67.18 	 47.462723 	 0.990031 	 4064903 	 1190
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1018992431_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1018992431_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1018992431_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1018992431_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1018992431_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1018992431_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1018992431_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1018992431_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1018992431_old.mp4 	 121.88 	 41.110791 	 0.981161 	 1622071 	 473
 x264_veryfast 	 x264 	 1018992431_old.mp4 	 113.09 	 44.240897 	 0.986699 	 3318933 	 972
 x264_veryfast 	 x264 	 1018992431_old.mp4 	 106.85 	 45.690504 	 0.988650 	 4990476 	 1463
@@ -1232,18 +788,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1027486156_old.mp4 	 87.84 	 38.704328 	 0.9556
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1027486156_old.mp4 	 84.88 	 39.671916 	 0.962978 	 1081313 	 389
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1027486156_old.mp4 	 75.43 	 41.655680 	 0.974259 	 2197010 	 795
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1027486156_old.mp4 	 67.69 	 42.574424 	 0.978084 	 3312233 	 1201
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1027486156_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1027486156_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1027486156_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1027486156_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1027486156_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1027486156_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1027486156_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1027486156_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1027486156_old.mp4 	 126.02 	 38.023625 	 0.957759 	 1380382 	 498
 x264_veryfast 	 x264 	 1027486156_old.mp4 	 120.10 	 40.260090 	 0.971076 	 2766268 	 1002
 x264_veryfast 	 x264 	 1027486156_old.mp4 	 115.26 	 41.359286 	 0.975839 	 4152797 	 1506
@@ -1265,18 +809,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1029351615_old.mp4 	 70.72 	 25.888253 	 0.7389
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1029351615_old.mp4 	 71.65 	 26.999317 	 0.775014 	 737749 	 456
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1029351615_old.mp4 	 69.14 	 29.840538 	 0.855707 	 1495857 	 929
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1029351615_old.mp4 	 59.59 	 31.568909 	 0.891431 	 2202663 	 1369
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1029351615_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1029351615_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1029351615_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1029351615_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1029351615_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1029351615_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1029351615_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1029351615_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1029351615_old.mp4 	 120.76 	 23.628950 	 0.652237 	 759893 	 470
 x264_veryfast 	 x264 	 1029351615_old.mp4 	 113.66 	 27.150337 	 0.795874 	 1429457 	 888
 x264_veryfast 	 x264 	 1029351615_old.mp4 	 109.21 	 29.352470 	 0.856740 	 2177775 	 1354
@@ -1298,18 +830,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1051267389_old.mp4 	 77.88 	 24.716414 	 0.7010
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1051267389_old.mp4 	 78.14 	 25.539444 	 0.738738 	 658354 	 425
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1051267389_old.mp4 	 71.73 	 27.693710 	 0.820834 	 1319239 	 856
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1051267389_old.mp4 	 62.51 	 29.220213 	 0.862944 	 1981296 	 1288
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1051267389_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1051267389_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1051267389_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1051267389_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1051267389_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1051267389_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1051267389_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1051267389_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1051267389_old.mp4 	 124.36 	 24.259354 	 0.682923 	 752506 	 487
 x264_veryfast 	 x264 	 1051267389_old.mp4 	 117.42 	 26.779962 	 0.796865 	 1533620 	 996
 x264_veryfast 	 x264 	 1051267389_old.mp4 	 113.65 	 28.344950 	 0.847668 	 2319167 	 1509
@@ -1331,18 +851,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1057524681_old.mp4 	 82.25 	 29.429326 	 0.8773
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1057524681_old.mp4 	 81.89 	 30.879082 	 0.906741 	 295794 	 423
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1057524681_old.mp4 	 73.94 	 34.517550 	 0.952976 	 624710 	 898
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1057524681_old.mp4 	 67.34 	 36.692979 	 0.969723 	 906907 	 1306
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1057524681_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1057524681_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1057524681_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1057524681_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1057524681_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1057524681_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1057524681_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1057524681_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1057524681_old.mp4 	 117.06 	 28.553849 	 0.872008 	 328393 	 470
 x264_veryfast 	 x264 	 1057524681_old.mp4 	 111.26 	 32.071677 	 0.937454 	 684802 	 986
 x264_veryfast 	 x264 	 1057524681_old.mp4 	 109.13 	 34.449084 	 0.960242 	 1057038 	 1524
@@ -1364,18 +872,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1100460081_old.mp4 	 83.36 	 30.383257 	 0.8569
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1100460081_old.mp4 	 79.69 	 31.365508 	 0.875554 	 395988 	 457
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1100460081_old.mp4 	 67.36 	 34.040625 	 0.918944 	 753534 	 873
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1100460081_old.mp4 	 59.58 	 35.593963 	 0.937875 	 1113907 	 1293
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1100460081_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1100460081_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1100460081_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1100460081_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1100460081_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1100460081_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1100460081_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1100460081_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1100460081_old.mp4 	 120.04 	 29.143352 	 0.835662 	 418036 	 483
 x264_veryfast 	 x264 	 1100460081_old.mp4 	 114.19 	 32.585048 	 0.904176 	 838585 	 973
 x264_veryfast 	 x264 	 1100460081_old.mp4 	 109.39 	 34.431065 	 0.930837 	 1260273 	 1464
@@ -1397,18 +893,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1104467716_old.mp4 	 84.05 	 33.586331 	 0.9231
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1104467716_old.mp4 	 80.62 	 34.849300 	 0.937176 	 685889 	 498
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1104467716_old.mp4 	 70.62 	 37.952429 	 0.960598 	 1332121 	 971
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1104467716_old.mp4 	 64.26 	 39.563069 	 0.969101 	 1929649 	 1408
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1104467716_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1104467716_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1104467716_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1104467716_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1104467716_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1104467716_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1104467716_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1104467716_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1104467716_old.mp4 	 122.47 	 32.668845 	 0.919651 	 702764 	 510
 x264_veryfast 	 x264 	 1104467716_old.mp4 	 119.22 	 36.336332 	 0.955331 	 1385971 	 1010
 x264_veryfast 	 x264 	 1104467716_old.mp4 	 113.65 	 38.265192 	 0.967056 	 2066258 	 1508
@@ -1430,18 +914,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1117927406_old.mp4 	 81.86 	 28.939237 	 0.7531
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1117927406_old.mp4 	 76.73 	 29.508672 	 0.775470 	 345216 	 432
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1117927406_old.mp4 	 65.26 	 31.054126 	 0.830803 	 689797 	 867
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1117927406_old.mp4 	 56.90 	 32.235225 	 0.865486 	 1071339 	 1349
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1117927406_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1117927406_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1117927406_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1117927406_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1117927406_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1117927406_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1117927406_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1117927406_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1117927406_old.mp4 	 108.38 	 27.819221 	 0.715744 	 383589 	 481
 x264_veryfast 	 x264 	 1117927406_old.mp4 	 104.97 	 29.971472 	 0.795888 	 765267 	 963
 x264_veryfast 	 x264 	 1117927406_old.mp4 	 102.09 	 31.307455 	 0.842241 	 1168787 	 1473
@@ -1463,18 +935,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1125180655_old.mp4 	 85.94 	 25.847255 	 0.7114
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1125180655_old.mp4 	 84.78 	 26.439401 	 0.736738 	 594486 	 426
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1125180655_old.mp4 	 74.64 	 27.855180 	 0.793395 	 1178121 	 848
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1125180655_old.mp4 	 64.19 	 28.833049 	 0.827653 	 1783886 	 1285
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1125180655_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1125180655_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1125180655_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1125180655_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1125180655_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1125180655_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1125180655_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1125180655_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1125180655_old.mp4 	 132.69 	 25.799944 	 0.706842 	 674293 	 484
 x264_veryfast 	 x264 	 1125180655_old.mp4 	 126.33 	 27.522835 	 0.784502 	 1370585 	 987
 x264_veryfast 	 x264 	 1125180655_old.mp4 	 121.34 	 28.571545 	 0.825864 	 2070009 	 1492
@@ -1496,18 +956,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1147186011_old.mp4 	 87.47 	 32.947034 	 0.8993
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1147186011_old.mp4 	 84.18 	 34.366707 	 0.920021 	 500747 	 439
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1147186011_old.mp4 	 71.25 	 37.801371 	 0.955979 	 979007 	 863
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1147186011_old.mp4 	 64.83 	 39.903324 	 0.969648 	 1489904 	 1315
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1147186011_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1147186011_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1147186011_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1147186011_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1147186011_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1147186011_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1147186011_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1147186011_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1147186011_old.mp4 	 126.45 	 31.750280 	 0.890110 	 526407 	 462
 x264_veryfast 	 x264 	 1147186011_old.mp4 	 119.01 	 35.884929 	 0.944182 	 1075605 	 948
 x264_veryfast 	 x264 	 1147186011_old.mp4 	 115.17 	 38.055890 	 0.961698 	 1623013 	 1433
@@ -1529,18 +977,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1161618652_old.mp4 	 82.08 	 24.422658 	 0.7703
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1161618652_old.mp4 	 81.85 	 25.233416 	 0.807208 	 343571 	 402
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1161618652_old.mp4 	 70.48 	 27.583690 	 0.883716 	 726565 	 855
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1161618652_old.mp4 	 62.75 	 28.888403 	 0.911702 	 1106044 	 1303
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1161618652_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1161618652_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1161618652_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1161618652_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1161618652_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1161618652_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1161618652_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1161618652_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1161618652_old.mp4 	 117.74 	 23.390100 	 0.716014 	 404033 	 473
 x264_veryfast 	 x264 	 1161618652_old.mp4 	 114.68 	 26.072979 	 0.843753 	 861420 	 1014
 x264_veryfast 	 x264 	 1161618652_old.mp4 	 111.59 	 27.614401 	 0.887107 	 1323007 	 1560
@@ -1562,18 +998,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1161737720_old.mp4 	 118.65 	 41.700787 	 0.981
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1161737720_old.mp4 	 112.30 	 42.864308 	 0.984423 	 2970627 	 394
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1161737720_old.mp4 	 94.78 	 45.610456 	 0.989532 	 5857068 	 780
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1161737720_old.mp4 	 83.99 	 47.165466 	 0.991607 	 8755028 	 1168
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1161737720_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1161737720_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1161737720_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1161737720_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1161737720_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1161737720_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1161737720_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1161737720_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1161737720_old.mp4 	 165.37 	 40.334112 	 0.979567 	 3755514 	 499
 x264_veryfast 	 x264 	 1161737720_old.mp4 	 155.00 	 43.975797 	 0.987829 	 7468262 	 996
 x264_veryfast 	 x264 	 1161737720_old.mp4 	 146.26 	 45.749362 	 0.990504 	 11186699 	 1493
@@ -1595,18 +1019,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1163662590_old.mp4 	 90.33 	 31.345135 	 0.8892
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1163662590_old.mp4 	 86.62 	 32.707535 	 0.910683 	 797739 	 411
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1163662590_old.mp4 	 74.66 	 35.118513 	 0.942468 	 1586680 	 822
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1163662590_old.mp4 	 65.97 	 36.431145 	 0.954418 	 2377072 	 1234
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1163662590_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1163662590_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1163662590_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1163662590_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1163662590_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1163662590_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1163662590_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1163662590_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1163662590_old.mp4 	 131.45 	 31.458551 	 0.896471 	 940949 	 486
 x264_veryfast 	 x264 	 1163662590_old.mp4 	 126.19 	 34.340016 	 0.939716 	 1898884 	 985
 x264_veryfast 	 x264 	 1163662590_old.mp4 	 120.02 	 35.863810 	 0.955221 	 2856951 	 1484
@@ -1628,18 +1040,6 @@ hevc_qsv_sw_veryfast 	 hevc_sw 	 1171533178_old.mp4 	 114.06 	 43.624289 	 0.978
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1171533178_old.mp4 	 111.18 	 44.596163 	 0.982098 	 857909 	 406
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1171533178_old.mp4 	 93.20 	 46.668219 	 0.987620 	 1708499 	 813
 hevc_qsv_sw_veryfast 	 hevc_sw 	 1171533178_old.mp4 	 83.34 	 47.700109 	 0.989701 	 2543208 	 1212
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1171533178_old_{300k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1171533178_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1171533178_old_{400k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1171533178_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1171533178_old_{800k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1171533178_old.mp4 	  	  	  	  	 
-(standard_in) 1: syntax error
-ls: 无法访问encoded_videos/qy265_veryfast/1171533178_old_{1200k}.mp4: 没有那个文件或目录
-qy265_veryfast 	 qy265 	 1171533178_old.mp4 	  	  	  	  	 
 x264_veryfast 	 x264 	 1171533178_old.mp4 	 172.09 	 42.831079 	 0.978095 	 1077442 	 511
 x264_veryfast 	 x264 	 1171533178_old.mp4 	 156.14 	 45.225120 	 0.985488 	 2130577 	 1015
 x264_veryfast 	 x264 	 1171533178_old.mp4 	 144.41 	 46.419380 	 0.988140 	 3195094 	 1524
