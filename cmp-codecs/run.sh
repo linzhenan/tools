@@ -141,7 +141,6 @@ function encode_hevc_qsv() {
         -threads $ec_threads \
         -movflags +faststart \
         -preset:v $ec_preset \
-        -tune:v $ec_preset \
         -r:v $ec_fps \
         -b:v "$ec_bitrate" \
         -c:v hevc_qsv \
