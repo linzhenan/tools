@@ -4,7 +4,7 @@ echo "" > run.log
 
 source $(dirname $0)/common.sh
 
-SRC_VIDEOS_DIR=selected50
+SRC_VIDEOS_DIR=../selected50
 ENC_CONFIG_DIR=conffinal
 ENC_REPORT_DIR=encode_reports
 ENC_VIDEOS_DIR=encoded_videos
@@ -88,10 +88,11 @@ function encode_qy265() {
         -c:v libqy265 \
         -qy265-params $ec_params \
         -y $output"
-    #echo $run_cmd>>run.log
+    echo $run_cmd>>run.log
 
     start_time=$($DATE_CMD +"%s%3N")
     stdout=$($run_cmd 2>&1)
+    echo "$stdout">>run.log
     end_time=$($DATE_CMD +"%s%3N")
 }
 
@@ -219,11 +220,11 @@ do
             tmp=tmp.mp4
             
             run_cmd="$FFMPEG_PATH -i $input -vf crop=$crop_filter,scale=$scale_filter -an -threads 8 -movflags +faststart -r $ec_fps -c:v libx264 -preset ultrafast -crf 0 -y $tmp"
-            #echo $run_cmd>>run.log
+            echo $run_cmd>>run.log
             stdout=$($run_cmd 2>&1)
             
             run_cmd="$FFMPEG_PATH -i $output -i $tmp -lavfi ssim;[0:v][1:v]psnr -f null -"
-            #echo $run_cmd>>run.log
+            echo $run_cmd>>run.log
             stdout=$($run_cmd 2>&1)
             
             psnr=$(extract_psnr_filter "$stdout")
