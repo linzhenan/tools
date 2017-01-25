@@ -66,7 +66,7 @@ for result_file in selected_result_files:
 #print results['VID_20160725_091502.mp4']['x265_veryfast'].get_psnr_metric()
 #print bdpsnr_limited.bdrate(results['VID_20160725_091502.mp4']['x264_veryfast'].get_psnr_metric(), results['VID_20160725_091502.mp4']['x265_veryfast'].get_psnr_metric())
 
-tested_encoder_list = ['h264_qsv_veryfast', 'hevc_qsv_hw_veryfast', 'hevc_qsv_sw_veryfast', 'x265_veryfast', 'qy265_veryfast', 'hevc_qsv_hw_veryfast', 'hevc_qsv_sw_veryfast']
+tested_encoder_list = ['h264_qsv_veryfast', 'hevc_qsv_hw_veryfast', 'hevc_qsv_sw_veryfast', 'x265_veryfast', 'qy265_veryfast', 'hevc_qsv_hw_medium', 'hevc_qsv_sw_medium']
 
 print 'BDBR(PSNR)'
 for video_name, encoders in results.iteritems():
