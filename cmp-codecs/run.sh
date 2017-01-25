@@ -188,8 +188,8 @@ do
         for br in $br1 $br2 $br3 $br4
         do
             ec_bitrate=$br
-            report_file=$ENC_REPORT_DIR/${conf_name}_${ec_bitrate}.txt
-            output=$ENC_VIDEOS_DIR/${conf_name}/$(basename $input .mp4)_{$ec_bitrate}.mp4
+            report_file=$ENC_REPORT_DIR/$conf_name_$ec_bitrate.txt
+            output=$ENC_VIDEOS_DIR/$conf_name/$(basename $input .mp4)_$ec_bitrate.mp4
 
             if [ "$ec_encoder" = "x264" ]; then
                 encode_x264 $input $output
@@ -216,20 +216,20 @@ do
             process_fps=$(bc <<< "scale=2; $nb_frames * 1000 / $process_time")
             size=$(extract_size $output)
             
-            tmp="tmp.mp4"
+            tmp=tmp.mp4
             
-            run_cmd="$FFMPEG_PATH -i $input -an -vf crop=$crop_filter,scale=$scale_filter -r $ec_fps -c:v libx264 -preset ultrafast -crf 0 -y $tmp"
-            echo $run_cmd>>run.log
+            run_cmd="$FFMPEG_PATH -i $input -vf crop=$crop_filter,scale=$scale_filter -an -threads 8 -movflags +faststart -r $ec_fps -c:v libx264 -preset ultrafast -crf 0 -y $tmp"
+            #echo $run_cmd>>run.log
             stdout=$($run_cmd 2>&1)
             
             run_cmd="$FFMPEG_PATH -i $output -i $tmp -lavfi ssim;[0:v][1:v]psnr -f null -"
-            echo $run_cmd>>run.log
+            #echo $run_cmd>>run.log
             stdout=$($run_cmd 2>&1)
             
             psnr=$(extract_psnr_filter "$stdout")
             ssim=$(extract_ssim_filter "$stdout")
             
-            rm "$tmp"
+            rm $tmp
         
             line="$conf_name \\t $ec_encoder \\t $vid_file \\t $process_fps \\t $psnr \\t $ssim \\t $size \\t $bitrate"
             echo -e "$line"
