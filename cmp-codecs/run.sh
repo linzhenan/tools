@@ -4,8 +4,8 @@ echo "" > run.log
 
 source $(dirname $0)/common.sh
 
-SRC_VIDEOS_DIR=../selected50
-ENC_CONFIG_DIR=conffinal
+SRC_VIDEOS_DIR=../../selected
+ENC_CONFIG_DIR=conf
 ENC_REPORT_DIR=encode_reports
 ENC_VIDEOS_DIR=encoded_videos
 
@@ -111,6 +111,7 @@ function encode_h264_qsv() {
         -an \
         -threads $ec_threads \
         -movflags +faststart \
+        -async_depth $ec_async_depth \
         -preset:v $ec_preset \
         -r:v $ec_fps \
         -b:v $ec_bitrate \
@@ -140,6 +141,7 @@ function encode_hevc_qsv() {
         -an \
         -threads $ec_threads \
         -movflags +faststart \
+        -async_depth $ec_async_depth \
         -preset:v $ec_preset \
         -r:v $ec_fps \
         -b:v "$ec_bitrate" \
@@ -173,6 +175,7 @@ do
     do
         conf_name=$(basename $conf_file .conf)
         
+        ec_async_depth=4
         eval "$(cat $conf_file)"
         br1=300k
         br2=600k
