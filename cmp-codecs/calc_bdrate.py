@@ -66,20 +66,33 @@ for result_file in selected_result_files:
 #print results['VID_20160725_091502.mp4']['x265_veryfast'].get_psnr_metric()
 #print bdpsnr_limited.bdrate(results['VID_20160725_091502.mp4']['x264_veryfast'].get_psnr_metric(), results['VID_20160725_091502.mp4']['x265_veryfast'].get_psnr_metric())
 
+def time_inc_rate(fps_ref, fps_test):
+    return (fps_ref / fps_test - 1) * 100
+
 tested_encoder_list = ['h264_qsv_veryfast', 'hevc_qsv_hw_veryfast', 'hevc_qsv_sw_veryfast', 'x265_veryfast', 'qy265_veryfast', 'hevc_qsv_hw_medium', 'hevc_qsv_sw_medium']
+anchor_encoder = 'x264_veryfast'
 
-print 'BDBR(PSNR)'
+f = open('BDBR(PSNR).txt')
 for video_name, encoders in results.iteritems():
     line = video_name
     for encoder_name in tested_encoder_list:
-        bdrate = bdpsnr_limited.bdrate(encoders['x264_veryfast'].get_psnr_metric(), encoders[encoder_name].get_psnr_metric())
+        bdrate = bdpsnr_limited.bdrate(encoders[anchor_encoder].get_psnr_metric(), encoders[encoder_name].get_psnr_metric())
         line = line + ' ' + str(bdrate)
-    print line
+    print (line, f)
 
-print 'BDBR(SSIM)'
+f = open('BDBR(SSIM).txt')
 for video_name, encoders in results.iteritems():
     line = video_name
     for encoder_name in tested_encoder_list:
-        bdrate = bdpsnr_limited.bdrate(encoders['x264_veryfast'].get_psnr_metric(), encoders[encoder_name].get_psnr_metric())
+        bdrate = bdpsnr_limited.bdrate(encoders[anchor_encoder].get_psnr_metric(), encoders[encoder_name].get_psnr_metric())
         line = line + ' ' + str(bdrate)
-    print line
+    print (line, f)
+
+
+f = open('TimeInc.txt')
+for video_name, encoders in results.iteritems():
+    line = video_name
+    for encoder_name in tested_encoder_list:
+        incrate = time_inc_rate(encoders[anchor_encoder].speed, encoders[ancoder_name].speed)
+        line = line + ' ' + str(incrate)
+    print (line, f)
