@@ -1,3 +1,5 @@
+#define _FILE_OFFSET_BITS 64
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <memory.h>
@@ -5,10 +7,14 @@
 #include <string.h>
 #include <assert.h>
 #include <math.h>
+#include <inttypes.h>
 
 #pragma warning(disable:4996)
 
 #define MAX_PATH_LEN 1024
+
+#define _fseeki64 fseeko
+#define _ftelli64 ftello
 
 typedef struct InputFileContext
 {
@@ -41,7 +47,7 @@ typedef enum CompnentIndexEnum
 	U_Cr,
 	V_Cb,
 	MAX_COMPO_NUM,
-};
+} CompIdxEnum;
 
 typedef struct StatisticsContext
 {
@@ -74,7 +80,7 @@ static int open_file(InFileContext *pInFile, char *tag, int width, int height)
 	assert(pInFile);
 
 	printf("%-6s YUV file: %s\n", tag, pInFile->filename);
-	printf("Open   YUV file: ", tag);
+	printf("Open   YUV file: ");
 	pInFile->file = FOPEN(pInFile->filename);
 	if (pInFile->file == NULL)
 	{
@@ -91,7 +97,7 @@ static int open_file(InFileContext *pInFile, char *tag, int width, int height)
 		return OPEN_FILE_ERROR;
 	}
 	pInFile->frame_cnt = (int)(pInFile->filesize / (width * height * 3 / 2));
-	printf("%I64d B, %d frames.\n", pInFile->filesize, pInFile->frame_cnt);
+	printf("%"PRIi64"B, %d frames.\n", pInFile->filesize, pInFile->frame_cnt);
 
 	return OK;
 }
