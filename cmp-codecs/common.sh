@@ -2,8 +2,10 @@ FFPROBE_PATH=/usr/local/bin/ffprobe
 
 if uname | grep -i "darwin"; then
     DATE_CMD=gdate
+    STAT_CMD=gstat
 else
     DATE_CMD=date
+    STAT_CMD=stat
 fi
 
 function ffprobe_nb_frames() {
@@ -49,7 +51,14 @@ function extract_time() {
 }
 
 function extract_x264_psnr() {
-    echo "$1" | grep '] PSNR' | grep -oE 'Avg:[0-9]+\.[0-9]+' | grep -oE '[0-9]+\.[0-9]+'
+    echo "$1" | grep '] PSNR' | grep -oE 'Y:[0-9.]+ U:[0-9.]+ V:[0-9.]+' | awk '{ print (6*substr($1, 3) + substr($2, 3) + substr($3, 3)) / 8 }'
+}
+
+function extract_x265_psnr() {
+    echo "$1" | grep 'Global\ PSNR' | grep -oE 'Global PSNR: [0-9.]+' | awk '{print substr($3,1)}'
+}
+function extract_qy265_psnr() {
+    echo "$1" | grep 'bitrate, psnr: ' | awk '{ print ($4*6+$5+$6) / 8 }'
 }
 
 function extract_psnr_filter() {
@@ -84,11 +93,13 @@ function ffprobe_get_input_info() {
         input_width=$streams_stream_0_width
         input_height=$streams_stream_0_height
     fi
+
+    echo "ffprobe_get_input_info input_width: ${input_width} input_height ${input_height}" >> run.log
 }
 
 function calc_crop_width_height() {
-    ratio_w=$1
-    ratio_h=$2
+    ratio_w=$ec_width
+    ratio_h=$ec_height
 
     if [ $((input_width < input_height)) -ne $((ratio_w < ratio_h)) ]; then
         tmp=$ratio_w
@@ -123,4 +134,12 @@ function calc_scale_width_height() {
         scale_width=$ec_height
         scale_height=$ec_width
     fi
+}
+
+function get_file_size() {
+    $STAT_CMD -c "%s" "$1"
+}
+
+function parse_psnr_log() {
+    cat "$1" | awk '{ print substr($7,8),substr($8,8), substr($9,8)}' | awk '{ total += 6*$1 + $2 + $3 } END { print total/(NR*8) }'
 }
