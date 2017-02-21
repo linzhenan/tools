@@ -17,7 +17,7 @@ function encode_x264() {
     input=$1
     output=$2
 
-    run_cmd="$FFMPEG_PATH -v info -i $input \
+    run_cmd="$FFMPEG_PATH -v $FFMPEG_LOG_LEVEL -i $input \
         -threads $ec_threads \
         -vf crop=$crop_filter,scale=$scale_filter
         -movflags +faststart \
@@ -218,8 +218,8 @@ do
                 ssim_stats_file="${output}.ssimstats"
                 psnr_stats_file="${output}.psnrstats"
                 run_cmd="$FFMPEG_PATH \
-                    -s $scale_width:$scale_height -i $yuv_output \
-                    -s $scale_width:$scale_height -i $yuv_input \
+                    -f rawvideo -pix_fmt yuv420p -s $scale_width:$scale_height -i $yuv_output \
+                    -f rawvideo -pix_fmt yuv420p -s $scale_width:$scale_height -i $yuv_input \
                     -lavfi ssim=stats_file=${ssim_stats_file};[0:v][1:v]psnr=stats_file=${psnr_stats_file} \
                     -f null -"
                 echo $run_cmd &>> run.log
