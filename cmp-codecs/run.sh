@@ -142,7 +142,6 @@ for conf in $conf_files; do
     rm -f $ENC_VIDEOS_DIR/$(basename $conf .conf)/*
 done
 
-flag=1
 for vid_file in $(ls -1 $SRC_VIDEOS_DIR | grep "\.mp4$" | sort -n)
 do
     echo -e "$vid_file"
