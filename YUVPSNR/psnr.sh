@@ -20,6 +20,7 @@ output=1018992431_old_1080x1920_x265.265
         -c:v libx265 \
         -y $output"
 
+if false; then
 output=1018992431_old_1080x1920_qy265.265
     run_cmd="sudo $FFMPEG_PATH -s 1080x1920 -i $input -psnr \
         -threads $ec_threads \
@@ -30,6 +31,7 @@ output=1018992431_old_1080x1920_qy265.265
         -c:v libqy265 \
         -qy265-params psnr=1 \
         -y $output"
+fi
 
 if false; then
 output=1018992431_old_1080x1920_x264.264
