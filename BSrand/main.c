@@ -7,7 +7,7 @@ int main(int argc, char **argv)
     FILE *pfile_in, *pfile_out;
     char *filename_in, *filename_out;
     int pos, len;
-    uint8_t *bs;
+    uint8_t *bs = NULL;
     int shift = 20;
     pfile_in  = NULL;
     pfile_out = NULL;
