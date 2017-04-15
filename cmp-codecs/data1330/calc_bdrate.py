@@ -42,7 +42,7 @@ results = {}
 current_video_name = 'invalid_video_name'
 currnet_encoder_name = 'invalid_encoder_name'
 
-selected_result_files = ['data.txt', 'data-fast.txt']
+selected_result_files = ['data1328.txt']
 
 for result_file in selected_result_files:
     with open (result_file) as f:
@@ -76,8 +76,8 @@ def time_inc_rate(fps_ref, fps_test):
         acc = acc + (fps_ref[i] / fps_test[i] - 1) * 100
     return acc / 4
 
-tested_encoder_list = ['h264_qsv_medium', 'h264_qsv_veryfast', 'hevc_qsv_hw_faster', 'hevc_qsv_hw_medium', 'hevc_qsv_hw_veryfast', 'hevc_qsv_sw_medium', 'hevc_qsv_sw_veryfast', 'qy265_medium', 'qy265_fast', 'qy265_veryfast', 'x264_medium', 'x265_medium', 'x265_veryfast']
-anchor_encoder = 'x264_medium'
+tested_encoder_list = ['h264_qsv_medium', 'h264_qsv_veryfast', 'hevc_qsv_hw_medium', 'hevc_qsv_hw_faster', 'hevc_qsv_hw_veryfast', 'hevc_qsv_sw_medium', 'hevc_qsv_sw_veryfast', 'qy265_medium', 'qy265_fast', 'qy265_veryfast', 'x264_medium', 'x265_medium', 'x265_veryfast']
+anchor_encoder = 'x264_veryfast'
 
 f = open('data_BDBR_PSNR.txt', 'w')
 print >>f, 'filename', '\t', '\t'.join(tested_encoder_list)
