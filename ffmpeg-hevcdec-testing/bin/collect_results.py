@@ -51,7 +51,7 @@ class Result:
 	frame_rate = 0.0#fps
 	file_size  = 0	#B
 	frame_cnt  = 0
-	dec_speed  = 0  #fps
+	dec_speed  = 0.0#fps
 	q          = 0.0
 	yuv_size   = 0	#KB
 	duration   = "" #mm:ss.0
@@ -148,9 +148,14 @@ def ProcessTopLog(path):
 		line = f.readline()
 		while line:
 			items = line.split()
-			record = Record(items[0], items[1], (int)(items[2].strip("%")), \
+			if len(items) == 10:
+				record = Record(items[0], items[1], (int)(items[2].strip("%")), \
 					items[3], items[4], (int)(items[5].strip("K")), (int)(items[6].strip("K")), \
 					items[7], items[8], items[9]) 
+			else:
+				record = Record(items[0], items[1], (int)(items[2].strip("%")), \
+					items[3], items[4], (int)(items[5].strip("K")), (int)(items[6].strip("K")), \
+					"", items[7], items[8]) 
 			recordSet.add(record)
 			line = f.readline()
 	'''
@@ -188,7 +193,7 @@ def ProcessFFReport(path):
 			   line.find("speed=") != -1 :
 				m = re.findall(r'[0-9|:|\.|\+|-]+', line)
 				frame = int(m[0])	#frame number
-				fps   = int(m[1])	#decoding speed (fps)
+				fps   = float(m[1])	#decoding speed (fps)
 				q     = float(m[2])
 				Lsize = int(m[3])	#YUV size	(kB)
 				time  = m[4]		#duration time	(hh:mm:ss)
@@ -201,7 +206,7 @@ def ProcessFFReport(path):
 				second = float(m[2])
 				dur    = hour * 3600 + minute * 60 + second
 				'''
-				print ("%s %d %d %.1f %d %s %.2f %.1f %.1f" %(seq, frame, fps, q, Lsize, time, dur, bitrate, speed))
+				print ("%s %d %.1f %.1f %d %s %.2f %.1f %.1f" %(seq, frame, fps, q, Lsize, time, dur, bitrate, speed))
 				'''
 				resultSet[seq].frame_cnt = frame
 				resultSet[seq].dec_speed = fps
@@ -229,8 +234,8 @@ PrintPath('.')
 class Summary:
 	count = 0
 
-	min_speed = 1000000
-	max_speed = 0
+	min_speed = 1000000.0
+	max_speed = 0.0
 	sum_speed = 0.0
 	
 	min_cpu = 100.0
@@ -285,8 +290,8 @@ print ("Sequence Bitstream, Resolution, Frame Rate (fps), File Size (B), Frame C
 '''
 for filename, result in resultSet.iteritems():
 	result.bitrate = result.file_size * 8.0 / result.duration_s
-	'''
-	print ("%s,%s,%.2f,%d,%d,%d,%.1f,%d,%s,%.1f,%.1f,%.1f,%d,%d,%d,%d,%d,%d,%.1f,%.1f,%.1f" %( 
+	'''	
+	print ("%s,%s,%.2f,%d,%d,%.1f,%.1f,%d,%s,%.1f,%.1f,%.1f,%d,%d,%d,%d,%d,%d,%.1f,%.1f,%.1f" %( 
 		result.file_name,\
 		result.resolution,\
 		result.frame_rate,\
@@ -308,7 +313,7 @@ for filename, result in resultSet.iteritems():
 		result.avg_cpu,\
 		result.avg_vss,\
 		result.avg_rss))
-	'''	
+	'''
 	res = 'unknown'
 	if result.resolution.find('x720') != -1:
 		res = '720p'
@@ -320,10 +325,9 @@ for filename, result in resultSet.iteritems():
 
 print("Resolution,Avg Speed (fps),Avg CPU (%),Avg VSS (MB), Avg RSS (MB),")
 for res in ['720p', '480p', '360p']:
-	print ("%s,%.2f (%d~%d),%.1f (%.1f~%.1f),%.1f (%.1f~%.1f),%.1f (%.1f~%.1f)," %(\
+	print ("%s,%.2f (%.1f~%.1f),%.1f (%.1f~%.1f),%.1f (%.1f~%.1f),%.1f (%.1f~%.1f)," %(\
 		res,\
 		summarySet[res].avg_speed(), summarySet[res].min_speed, summarySet[res].max_speed,\
 		summarySet[res].avg_cpu()       , summarySet[res].min_cpu       , summarySet[res].max_cpu,\
 		summarySet[res].avg_vss() / 1000, summarySet[res].min_vss / 1000, summarySet[res].max_vss / 1000,\
 		summarySet[res].avg_rss() / 1000, summarySet[res].min_rss / 1000, summarySet[res].max_rss / 1000)) 		
-				

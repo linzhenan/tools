@@ -1,9 +1,10 @@
 WORKDIR_PATH=/sdcard/zhenan
 BITSTREAM_EXTNAME=h265
-FFMPEG_PATH=/system/zhenan/bin/ffmpeg
+FFMPEG_PATH=/data/local/tmp/zhenan/bin/ffmpeg
 
 PLATFORM=$1
 THREAD=$2
+RE=$3
 VERSION=3.2.4
 
 FFREPORT_PATH=${WORKDIR_PATH}/${PLATFORM}_thread${THREAD}_${VERSION}_ffreport
@@ -29,7 +30,7 @@ do
 		topinfo=${filename}.top
 		rm -f $topinfo
 		
-		$FFMPEG_PATH -report -threads $THREAD -i $filename -f rawvideo -pix_fmt yuv420p -y /dev/null 1>/dev/null 2>&1 &
+		$FFMPEG_PATH -report -threads $THREAD $RE -i $filename -f rawvideo -pix_fmt yuv420p -y /dev/null 1>/dev/null 2>&1 &
 		
 		stdout=$(top -n 1 | grep ffmpeg)
 		while [ "$stdout" != "" ]
@@ -41,4 +42,5 @@ do
 	mv ${bitstream_path}/*.top $TOPINFO_PATH
 done
 
-mv *.log $FFREPORT_PATH
+cp *.log $FFREPORT_PATH
+rm -f *.log
