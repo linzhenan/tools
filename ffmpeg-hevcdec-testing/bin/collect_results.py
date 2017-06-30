@@ -148,11 +148,24 @@ def ProcessTopLog(path):
 		line = f.readline()
 		while line:
 			items = line.split()
-			if len(items) == 10:
+			if len(items) == 11:
+				#PID, "Shell", 20, 0, CPU
+				#S, THR, VSS, RSS
+				#"", UID, Name
+				record = Record(items[0], "", (int)(items[4].strip("%")),\
+					items[5], items[6], (int)(items[7].strip("K")), (int)(items[8].strip("K")),\
+					"", items[9], items[10])
+			elif len(items) == 10:#anchor
+				#PID, PR, CPU
+				#S, THR, VSS, RSS
+				#PCY, UID, Name
 				record = Record(items[0], items[1], (int)(items[2].strip("%")), \
 					items[3], items[4], (int)(items[5].strip("K")), (int)(items[6].strip("K")), \
 					items[7], items[8], items[9]) 
 			else:
+				#PID, PR, CPU
+				#S, THR, VSS, RSS
+				#"", UID, Name
 				record = Record(items[0], items[1], (int)(items[2].strip("%")), \
 					items[3], items[4], (int)(items[5].strip("K")), (int)(items[6].strip("K")), \
 					"", items[7], items[8]) 
@@ -178,12 +191,27 @@ def ProcessTopLog(path):
 def ProcessFFReport(path):
 	with open (path) as f:
 		seq = ""
+		cpuCnt = 0
+		thrCnt = 0
+		actCnt = 0
 		line = f.readline()
 		while line:
 			if line.find("Parsing a group of option") != -1 and line.find(".mp4.h265") != -1 :
 				segs = line.split('/')
 				seq = segs[len(segs) - 1]
 				seq = seq[:-2] # remove '.' and '\n'
+
+			m = re.findall(r'CpuCnt=[0-9]+', line)
+			if len(m) > 0:
+				cpuCnt = int(m[0].split('=')[1])
+			m = re.findall(r'ThrCnt=[0-9]+', line)
+			if len(m) > 0:
+				thrCnt = int(m[0].split('=')[1])
+			m = re.findall(r'ActCnt=[0-9]+', line)
+			if len(m) > 0:
+				actCnt = int(m[0].split('=')[1])
+				print ("%s: CpuCnt %d, ThrCnt %d, ActCnt %d" %(seq, cpuCnt, thrCnt, actCnt))
+			
 			if line.find("frame=") != -1 and \
 			   line.find("fps=")   != -1 and \
 			   line.find("q=")     != -1 and \
