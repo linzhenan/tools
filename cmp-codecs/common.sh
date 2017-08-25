@@ -1,4 +1,4 @@
-FFPROBE_PATH=/usr/local/bin/ffprobe
+FFPROBE_PATH=/data/ffmpeg-3.3.3/ffprobe
 
 if uname | grep -i "darwin"; then
     DATE_CMD=gdate
@@ -74,7 +74,8 @@ function extract_size() {
 }
 
 function extract_bitrate() {
-    ffprobe $1 2>&1 | grep 'Video:' | grep -oE '[0-9]+ kb/s' | grep -oE '[0-9]+'
+    bitrate=$($FFPROBE_PATH $1 2>&1 | grep 'Video:' | grep -oE '[0-9]+ kb/s' | grep -oE '[0-9]+')
+    echo $bitrate
 }
 
 function ffprobe_get_input_info() {
