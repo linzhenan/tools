@@ -69,7 +69,7 @@ do
 	$FFMPEG -i $file -ss 1 -frames 1 -y $file.jpg
 	
 	start_time=$($DATE_CMD +"%s%3N")
-	./HandBrakeCLI -i $file -e qsv_h264 -x "tu=1:trellis=3:b-pyramid=1:ref=4" --vb $bit_rate -o $file.qsv.mp4
+	./HandBrakeCLI --crop 0:0:0:0 -i $file -e qsv_h264 -x "tu=1:trellis=3:b-pyramid=1:ref=4" --vb $bit_rate -o $file.qsv.mp4
 	end_time=$($DATE_CMD +"%s%3N")
 	qsv_time=$((end_time - start_time))
 	$FFMPEG -i $file -i $file.qsv.mp4 -lavfi psnr=stats_file=$file.psnr.log -f null -
@@ -81,7 +81,7 @@ do
 	rm $file.qsv.mp4
 
 	start_time=$($DATE_CMD +"%s%3N")
-	./HandBrakeCLI -i $file -e x264  --encoder-preset  veryslow --vb $bit_rate -o $file.x264.mp4
+	./HandBrakeCLI --crop 0:0:0:0 -i $file -e x264  --encoder-preset  veryslow --vb $bit_rate -o $file.x264.mp4
 	end_time=$($DATE_CMD +"%s%3N")
 	x264_time=$((end_time - start_time))
 	$FFMPEG -i $file -i $file.x264.mp4 -lavfi psnr=stats_file=$file.psnr.log -f null -
