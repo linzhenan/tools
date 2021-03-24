@@ -13,8 +13,16 @@
 
 #define MAX_PATH_LEN 1024
 
-#define _fseeki64 fseeko
-#define _ftelli64 ftello
+#if (defined(_MSC_VER) || defined(__INTEL_COMPILER)) && (defined(_WIN32) || defined(_WIN64))
+#define _fseeki64      _fseeki64
+#define _ftelli64      _ftelli64
+#elif defined(__MINGW32__) || defined(__GNUC__)
+#define _fseeki64      fseeko64
+#define _ftelli64      ftello64
+#else
+#define _fseeki64      fseek
+#define _ftelli64      ftell
+#endif
 
 typedef struct InputFileContext
 {
